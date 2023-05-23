@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './App.css';
+import './WeatherApp.css';
 import 'tailwindcss/tailwind.css';
 import TopButtons from './components/TopButtons';
 import TopInputs from './components/TopInputs';
@@ -30,7 +30,7 @@ import { getFormattedData } from './services/weatherService';
 
 // validating city name input -- fix searchbar validation -- may seem unfixable
 
-export default function App() { 
+export default function WeatherApp() { 
   const [data, setData] = useState(null)
   const [city, setCity] = useState('Edmonton')
   const [isMetric, setisMetric] = useState(true)
