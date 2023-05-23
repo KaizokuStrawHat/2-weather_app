@@ -8,9 +8,12 @@ import TopInputs from './components/TopInputs';
 import MiddleDateAndTime from './components/MiddleDateAndTime';
 import MiddlePlaceAndWeather from './components/MiddlePlaceAndWeather';
 import HourlyForecast from './components/HourlyForecast';
-import { getFormattedData} from './services/weatherService';
+import { getFormattedData } from './services/weatherService';
 
 // To DO (top to bottom importance):
+
+// !! THE HOURLY COMPONENTS ARE NOT CHANGING BETWEEN FAHRENHEIT AND CELCIUS
+// !! FIX THE SEARCH and LOCATION buttons
 
 // has color from hot and cold temperature
 // make smooth transition loop 
